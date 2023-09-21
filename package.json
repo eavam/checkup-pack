@@ -1,6 +1,6 @@
 {
   "name": "smoke-pack",
-  "version": "0.0.0-development",
+  "version": "1.0.0-beta.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -100,5 +100,6 @@
   },
   "dependencies": {
     "execa": "8.0.1"
-  }
+  },
+  "stableVersion": "0.0.0-development"
 }
