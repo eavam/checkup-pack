@@ -1,3 +1,10 @@
+# [1.0.0-beta.3](https://github.com/eavam/chekup-pack/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2023-09-23)
+
+
+### Bug Fixes
+
+* rename pack ([cc6d84c](https://github.com/eavam/chekup-pack/commit/cc6d84c58ee92298a8662802b12479bf11fbef19))
+
 # [1.0.0-beta.2](https://github.com/eavam/chekup-pack/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2023-09-23)
 
 ### Bug Fixes
