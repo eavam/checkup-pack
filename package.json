@@ -1,14 +1,14 @@
 {
-  "name": "pack-check",
+  "name": "chekup-pack",
   "version": "0.0.0-development.0",
   "description": "",
   "files": [
     "dist"
   ],
-  "main": "./dist/pack-check.js",
-  "module": "./dist/pack-check.js",
+  "main": "./dist/chekup-pack.js",
+  "module": "./dist/chekup-pack.js",
   "exports": {
-    "import": "./dist/pack-check.js"
+    "import": "./dist/chekup-pack.js"
   },
   "scripts": {
     "lint": "eslint .",
@@ -19,7 +19,7 @@
   },
   "author": "Egor Avakumov",
   "license": "MIT",
-  "repository": "https://github.com/eavam/pack-check.git",
+  "repository": "https://github.com/eavam/chekup-pack.git",
   "devDependencies": {
     "@commitlint/cli": "17.7.1",
     "@commitlint/config-conventional": "17.7.0",
