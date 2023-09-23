@@ -2,7 +2,6 @@
   "name": "pack-check",
   "version": "1.0.0-beta.1",
   "description": "",
-  "type": "module",
   "files": [
     "dist"
   ],
@@ -12,7 +11,7 @@
     "import": "./dist/pack-check.js"
   },
   "scripts": {
-    "lint": "eslint . --ext .js,.ts",
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "semantic-release",
     "prepare": "node -e \"try { require('husky').install() } catch (e) {if (e.code !== 'MODULE_NOT_FOUND') throw e}\"",
@@ -34,13 +33,14 @@
     "@semantic-release/npm": "11.0.0",
     "@semantic-release/release-notes-generator": "12.0.0",
     "@types/cross-spawn": "6.0.3",
-    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/eslint-plugin": "6.7.2",
     "@typescript-eslint/parser": "6.7.2",
-    "eslint": "^8.0.1",
+    "eslint": "8.48.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-config-standard-with-typescript": "latest",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-promise": "^6.0.0",
     "husky": "8.0.3",
     "prettier": "2.8.8",
