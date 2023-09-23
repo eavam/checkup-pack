@@ -1,3 +1,16 @@
+# [1.0.0-beta.2](https://github.com/eavam/pack-check/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2023-09-23)
+
+
+### Bug Fixes
+
+* linter ([9d425ce](https://github.com/eavam/pack-check/commit/9d425cedca72c6391c6e212e7657ce9cfecf5c8b))
+* lock ([f8ffad2](https://github.com/eavam/pack-check/commit/f8ffad2ea1bac77fc11eeefba02e315134b4a915))
+
+
+### Features
+
+* rename project ([5dd44ee](https://github.com/eavam/pack-check/commit/5dd44ee3ea47f781fced780888d5dacb66ac7ffa))
+
 # 1.0.0-beta.1 (2023-09-21)
 
 ### Bug Fixes
