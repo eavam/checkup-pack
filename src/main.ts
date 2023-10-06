@@ -1,18 +1,18 @@
 // #!/usr/bin/env zx
 
-import { $, cd } from "zx";
-import { emptyDir, ensureDir } from "https://deno.land/std@0.203.0/fs/mod.ts";
+import { $, cd } from 'zx';
+import { emptyDir, ensureDir } from 'https://deno.land/std@0.203.0/fs/mod.ts';
 
 async function getJson(filePath: string) {
   try {
     return JSON.parse(await Deno.readTextFile(filePath));
   } catch (e) {
-    console.log(filePath + ": " + e.message);
+    console.log(filePath + ': ' + e.message);
   }
 }
 
 const getPackageName = async () => {
-  const packageJson = await getJson("./package.json");
+  const packageJson = await getJson('./package.json');
   return `${packageJson.name}-${packageJson.version}.tgz`;
 };
 
