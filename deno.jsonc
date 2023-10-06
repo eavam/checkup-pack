@@ -5,6 +5,9 @@
   "tasks": {
     "build": "deno compile -A -o dist/checkup-pack src/main.ts  "
   },
+  "lint": {
+    "exclude": [".pnp.*", "CHANGELOG.md", ".yarn"]
+  },
   "fmt": {
     "singleQuote": true,
     "exclude": [".pnp.*", "CHANGELOG.md", ".yarn"]
