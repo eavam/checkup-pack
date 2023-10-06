@@ -1,3 +1,10 @@
+# [1.0.0-beta.5](https://github.com/eavam/checkup-pack/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2023-10-06)
+
+
+### Bug Fixes
+
+* add build in package ([7c16677](https://github.com/eavam/checkup-pack/commit/7c166778907214ee460ef3db9cb2c6c5360039df))
+
 # [1.0.0-beta.4](https://github.com/eavam/checkup-pack/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2023-10-06)
 
 
