@@ -1,3 +1,10 @@
+# [1.0.0-beta.4](https://github.com/eavam/checkup-pack/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2023-10-06)
+
+
+### Features
+
+* add first working script ([e342872](https://github.com/eavam/checkup-pack/commit/e342872b890ecbc69ed6e5e20f3b5ba847103885))
+
 # [1.0.0-beta.3](https://github.com/eavam/checkup-pack/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2023-09-23)
 
 ### Bug Fixes
